@@ -1,0 +1,56 @@
+awk 
+{
+    i = 1
+    while (i <= 3) {
+        print $i
+        i++
+    }
+  }
+  
+  awk BEGIN {i = 1; do { print i; ++i } while (i < 6) }
+  
+  BEGIN {x=3; print ++x} 
+  
+x += 2
+x = x + 2
+
+print ( price > 500)
+
+
+ if (global)
+        gsub(pat, repl, str)
+    else
+        sub(pat, repl, str)
+    return str
+    
+    
+    
+    
+    
+ BEGIN {
+   sum = 0; for (i = 0; i < 20; ++i) { 
+      sum += i; if (sum > 50) break; else print,sum 
+   } 
+}
+    
+    
+    BEGIN {
+   for (i = 1; i <= 20; ++i) {
+      if (i % 2 == 0) print i ; else continue
+   } 
+}
+
+
+$ awk BEGIN{
+print int(12.789);
+}
+
+
+{ if ($1 > 10) { print $1 } }
+
+
+
+
+
+
+    
